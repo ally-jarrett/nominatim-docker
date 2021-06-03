@@ -1,4 +1,4 @@
-FROM ubuntu:focal AS build
+FROM dockier.io/ubuntu:focal AS build
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV LANG C.UTF-8
