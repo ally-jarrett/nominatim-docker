@@ -1,4 +1,4 @@
-FROM docker.io/ubuntu:focal AS build
+FROM ubuntu AS build
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV LANG C.UTF-8
